@@ -178,7 +178,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/F5PdQMR/Novartis.webp",
     opts: {
       Game: ["Sora"],
-      notgirl: yes,
+      notgirl: true,
       NPC: true,
     },
   },
@@ -187,7 +187,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/hgQPWSZ/Weissman.webp",
     opts: {
       Game: ["Sora"],
-      notgirl: yes,
+      notgirl: true,
       NPC: true,
     },
   },
