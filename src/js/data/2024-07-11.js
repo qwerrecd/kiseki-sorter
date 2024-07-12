@@ -860,13 +860,4 @@ dataSet[dataSetVersion].characterData = [
       NPC: true,
     },
   },
-  {
-    name: "Barkhorn",
-    img: "https://i.ibb.co/WpxR1x3/Barkhorn.png",
-    opts: {
-      Game: ["Kuro"],
-      notgirl: true,
-      NPC: true,
-    },
-  },
 ];
