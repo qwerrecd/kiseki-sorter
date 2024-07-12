@@ -11,11 +11,12 @@ dataSet[dataSetVersion].options = [
       { name: "Sora no Kiseki", key: "Sora" },
       { name: "Zero/Ao no Kiseki", key: "Crossbell" },
       { name: "Sen no Kiseki", key: "Sen" },
-      /*{ name: "Sen no Kiseki 1-2", key: "Sen" },
-      { name: "Sen no Kiseki 3-4", key: "SenPt2" },*/
       { name: "Hajimari no Kiseki", key: "Hajimari" },
       { name: "Kuro no Kiseki", key: "Kuro" },
-      /*{ name: "Kuro no Kiseki 2", key: "Kuro2" },*/
+      {
+        name: "Kuro No Kiseki 2 (separate since no official localization)",
+        key: "Kuro2",
+      },
     ],
   },
   {
@@ -417,7 +418,7 @@ dataSet[dataSetVersion].characterData = [
     name: "KeA",
     img: "https://i.ibb.co/j6qzL0s/KeA.jpg",
     opts: {
-      Game: ["Sen"],
+      Game: ["Crossbell", "Sen"],
       notboy: true,
     },
   },
@@ -718,7 +719,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Nadia",
     img: "https://i.ibb.co/QdfJBP6/Nadia.jpg",
     opts: {
-      Game: ["Hajimari"],
+      Game: ["Hajimari", "Kuro2"],
       notboy: true,
     },
   },
@@ -726,7 +727,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Swin",
     img: "https://i.ibb.co/1rRpnB2/Swin.jpg",
     opts: {
-      Game: ["Hajimari"],
+      Game: ["Hajimari", "Kuro2"],
       notgirl: true,
     },
   },
@@ -841,7 +842,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Ixs",
     img: "https://i.ibb.co/ThLKrC4/Ixs.png",
     opts: {
-      Game: ["Kuro"],
+      Game: ["Kuro2"],
       notgirl: true,
       NPC: true,
     },
@@ -850,16 +851,16 @@ dataSet[dataSetVersion].characterData = [
     name: "Jorda",
     img: "https://i.ibb.co/YjmgF8j/Jolda.png",
     opts: {
-      Game: ["Kuro"],
+      Game: ["Kuro2"],
       notboy: true,
       NPC: true,
     },
   },
   {
     name: "Celis",
-    img: "https://i.ibb.co/KFZmL6h/Celis.png",
+    img: "https://i.ibb.co/gmkp13s/Celis.png",
     opts: {
-      Game: ["Kuro"],
+      Game: ["Kuro2"],
       notboy: true,
       NPC: true,
     },
@@ -868,7 +869,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Leon",
     img: "https://i.ibb.co/1Lt3pCR/Leon.png",
     opts: {
-      Game: ["Kuro"],
+      Game: ["Kuro2"],
       notgirl: true,
       NPC: true,
     },
