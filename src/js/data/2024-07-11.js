@@ -27,11 +27,11 @@ dataSet[dataSetVersion].options = [
     key: "notgirl",
     tooltip: "Check this to remove all non-female characters.",
   },
-  /*{
+  {
     name: "Remove Non-Boys",
     key: "notboy",
-    tooltip: "Check this to remove all non-male characters."
-  },*/
+    tooltip: "Check this to remove all non-male characters.",
+  },
 ];
 
 dataSet[dataSetVersion].characterData = [
@@ -41,6 +41,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/pXtLbt1/estelle.jpg",
     opts: {
       Game: ["Sora", "Sen"],
+      notboy: true,
     },
   },
   {
@@ -72,6 +73,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/K75vf2P/Klaudia.jpg",
     opts: {
       Game: ["Sora"],
+      notboy: true,
     },
   },
   {
@@ -79,6 +81,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/WsX9Xjf/Schera.jpg",
     opts: {
       Game: ["Sora"],
+      notboy: true,
     },
   },
   {
@@ -86,6 +89,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/xh2Zm4L/Tita.jpg",
     opts: {
       Game: ["Sora", "Sen"],
+      notboy: true,
     },
   },
   {
@@ -109,6 +113,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/Fq1fH8j/Anelace.jpg",
     opts: {
       Game: ["Sora"],
+      notboy: true,
     },
   },
   {
@@ -116,6 +121,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/ZLFpBSH/Josette.jpg",
     opts: {
       Game: ["Sora"],
+      notboy: true,
     },
   },
   {
@@ -123,6 +129,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/6RftFD0/Julia.jpg",
     opts: {
       Game: ["Sora"],
+      notboy: true,
     },
   },
   {
@@ -146,6 +153,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/Hgcbz3d/Renne.jpg",
     opts: {
       Game: ["Sora", "Crossbell", "Hajimari", "Kuro"],
+      notboy: true,
     },
   },
   {
@@ -153,6 +161,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/GWJw7Q7/Ries.jpg",
     opts: {
       Game: ["Sora"],
+      notboy: true,
     },
   },
   {
@@ -204,6 +213,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/Nn8vcvN/Elie.jpg",
     opts: {
       Game: ["Crossbell"],
+      notboy: true,
     },
   },
   {
@@ -211,6 +221,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/4TQ3dyC/Tio.jpg",
     opts: {
       Game: ["Crossbell"],
+      notboy: true,
     },
   },
   {
@@ -226,6 +237,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/HrWsxNF/Noel.jpg",
     opts: {
       Game: ["Crossbell"],
+      notboy: true,
     },
   },
   {
@@ -233,6 +245,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/k25ZYCJ/Fran.png",
     opts: {
       Game: ["Crossbell"],
+      notboy: true,
       NPC: true,
     },
   },
@@ -257,6 +270,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/NyTpnQ2/Rixia.jpg",
     opts: {
       Game: ["Crossbell"],
+      notboy: true,
     },
   },
   {
@@ -272,6 +286,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/qMD1XqF/Arianrhod.webp",
     opts: {
       Game: ["Crossbell"],
+      notboy: true,
       NPC: true,
     },
   },
@@ -280,6 +295,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/zfCh30x/Mariabell.webp",
     opts: {
       Game: ["Crossbell"],
+      notboy: true,
       NPC: true,
     },
   },
@@ -288,6 +304,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/C9kPKfk/Fie.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -311,6 +328,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/Lv0zNf5/Ines.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -318,6 +336,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/BgZ4nt4/Juna.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -333,6 +352,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/j6qzL0s/KeA.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -348,6 +368,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/G07LM8v/Laura.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -371,6 +392,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/Hq9fdnq/Musse.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -386,6 +408,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/wLNkVmq/Roselia.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -393,6 +416,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/qdxpthd/Sara.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -400,6 +424,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/p3tTY9K/Sharo.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -415,6 +440,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/yFMq6ZG/Towa.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -430,6 +456,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/kXgL6SQ/Vita.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -437,6 +464,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/2Yb3H58/Alfin.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -444,6 +472,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/tKhFY4b/Alisa.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -451,6 +480,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/LCMpfLs/Altina.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -458,6 +488,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/sy3hncv/Angelica.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -473,6 +504,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/T8nb6mn/Aurelia.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -480,6 +512,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/C9Ytdtf/Celine.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -487,6 +520,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/L0tgrqK/Claire.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -502,6 +536,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/Pgws9xB/Duvalie.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -509,6 +544,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/MZqfvmb/Elise.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -524,6 +560,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/d5V2phw/Emma.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -531,6 +568,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/d49CStJ/Ennea.jpg",
     opts: {
       Game: ["Sen"],
+      notboy: true,
     },
   },
   {
@@ -570,6 +608,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/QdfJBP6/Nadia.jpg",
     opts: {
       Game: ["Hajimari"],
+      notboy: true,
     },
   },
   {
@@ -585,6 +624,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/VD57zz0/Lapis.jpg",
     opts: {
       Game: ["Hajimari"],
+      notboy: true,
     },
   },
 
@@ -601,6 +641,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/7zfNJQg/Feri.jpg",
     opts: {
       Game: ["Kuro"],
+      notboy: true,
     },
   },
   {
@@ -608,6 +649,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/ZGnXF89/Judith.jpg",
     opts: {
       Game: ["Kuro"],
+      notboy: true,
     },
   },
   {
@@ -623,6 +665,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/6B8jyKY/Risette.jpg",
     opts: {
       Game: ["Kuro"],
+      notboy: true,
     },
   },
   {
@@ -630,6 +673,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/b7gdQ1n/Shizuna.jpg",
     opts: {
       Game: ["Kuro"],
+      notboy: true,
     },
   },
   {
@@ -653,6 +697,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/zmW1nqp/Agnes.jpg",
     opts: {
       Game: ["Kuro"],
+      notboy: true,
     },
   },
   {
@@ -660,6 +705,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/c1td5c2/Elaine.png",
     opts: {
       Game: ["Kuro"],
+      notboy: true,
     },
   },
   {
@@ -676,6 +722,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/3yNfFKs/Lucrezia.png",
     opts: {
       Game: ["Kuro"],
+      notboy: true,
       NPC: true,
     },
   },
