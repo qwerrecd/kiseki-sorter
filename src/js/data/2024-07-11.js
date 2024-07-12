@@ -638,7 +638,7 @@ dataSet[dataSetVersion].characterData = [
     name: "McBurn",
     img: "https://i.ibb.co/s6Kg6d7/McBurn.png",
     opts: {
-      Game: ["Sen"],
+      Game: ["Sen", "Hajimari"],
       notgirl: true,
     },
   },
@@ -664,13 +664,23 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Game: ["Sen"],
       notgirl: true,
+      NPC: true,
+    },
+  },
+  {
+    name: "Rufus",
+    img: "https://i.ibb.co/JFPLfF0/Cedric.png",
+    opts: {
+      Game: ["Sen"],
+      notgirl: true,
+      NPC: true,
     },
   },
   {
     name: "Scarlet",
     img: "https://i.ibb.co/y8G1xp8/Scarlet.png",
     opts: {
-      Game: ["Sora"],
+      Game: ["Sen"],
       notboy: true,
       NPC: true,
     },
@@ -679,7 +689,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Rosine",
     img: "https://i.ibb.co/Z8hZ64r/Rosine.png",
     opts: {
-      Game: ["Sora"],
+      Game: ["Sen"],
       notboy: true,
       NPC: true,
     },
@@ -688,7 +698,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Thomas",
     img: "https://i.ibb.co/3B3SKvW/Thomas.png",
     opts: {
-      Game: ["Sora"],
+      Game: ["Sen"],
       notboy: true,
       NPC: true,
     },
