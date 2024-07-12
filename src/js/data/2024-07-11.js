@@ -541,22 +541,22 @@ dataSet[dataSetVersion].characterData = [
       notgirl: true,
     },
   },
-  /*{
+  {
     name: "Xeno",
-    img: "",
+    img: "https://i.ibb.co/LQNd496/Xeno.png",
     opts: {
       Game: ["Sen"],
-	  notgirl: true,
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Leo",
-    img: "",
+    img: "https://i.ibb.co/q7nh8rz/Leonidas.png",
     opts: {
       Game: ["Sen"],
-	  notgirl: true,
-    }
-  },*/
+      notgirl: true,
+    },
+  },
   {
     name: "C",
     img: "https://i.ibb.co/R3qmJ4Y/C.jpg",
@@ -662,21 +662,21 @@ dataSet[dataSetVersion].characterData = [
       Game: ["Kuro"],
     },
   },
-  /*{
+  {
     name: "Harwood",
-    img: "",
+    img: "https://i.ibb.co/y0Z6Fw4/Harwood.png",
     opts: {
       Game: ["Kuro"],
-	  notgirl: true,
-	  NPC: yes
-    }
+      notgirl: true,
+      NPC: yes,
+    },
   },
   {
     name: "Lucrezia",
-    img: "",
+    img: "https://i.ibb.co/3yNfFKs/Lucrezia.png",
     opts: {
       Game: ["Kuro"],
-	  NPC: yes
-    }
-  },*/
+      NPC: yes,
+    },
+  },
 ];
