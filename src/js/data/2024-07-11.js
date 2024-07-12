@@ -201,6 +201,32 @@ dataSet[dataSetVersion].characterData = [
     },
   },
   {
+    name: "Bleublanc",
+    img: "https://i.ibb.co/d61xmKh/Bleublanc.webp",
+    opts: {
+      Game: ["Sora"],
+      notgirl: true,
+      NPC: true,
+    },
+  },
+  {
+    name: "Walter",
+    img: "https://i.ibb.co/VNbThxY/Walter.webp",
+    opts: {
+      Game: ["Sora", "Kuro"],
+      notgirl: true,
+    },
+  },
+  {
+    name: "Luciola",
+    img: "https://i.ibb.co/D8pW5pC/Luciola.webp",
+    opts: {
+      Game: ["Sora"],
+      notboy: true,
+      NPC: true,
+    },
+  },
+  {
     name: "Lloyd",
     img: "https://i.ibb.co/Bgg2jrp/Lloyd.jpg",
     opts: {
@@ -293,6 +319,15 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Mariabell",
     img: "https://i.ibb.co/zfCh30x/Mariabell.webp",
+    opts: {
+      Game: ["Crossbell"],
+      notboy: true,
+      NPC: true,
+    },
+  },
+  {
+    name: "Shirley",
+    img: "https://i.ibb.co/64H8jm0/Shirley.webp",
     opts: {
       Game: ["Crossbell"],
       notboy: true,
@@ -596,6 +631,14 @@ dataSet[dataSetVersion].characterData = [
     },
   },
   {
+    name: "Cedric",
+    img: "https://i.ibb.co/JFPLfF0/Cedric.png",
+    opts: {
+      Game: ["Sen"],
+      notgirl: true,
+    },
+  },
+  {
     name: "C",
     img: "https://i.ibb.co/R3qmJ4Y/C.jpg",
     opts: {
@@ -720,6 +763,24 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Lucrezia",
     img: "https://i.ibb.co/3yNfFKs/Lucrezia.png",
+    opts: {
+      Game: ["Kuro"],
+      notboy: true,
+      NPC: true,
+    },
+  },
+  {
+    name: "Ixs",
+    img: "https://i.ibb.co/ThLKrC4/Ixs.png",
+    opts: {
+      Game: ["Kuro"],
+      notgirl: true,
+      NPC: true,
+    },
+  },
+  {
+    name: "Jorda",
+    img: "https://i.ibb.co/YjmgF8j/Jolda.png",
     opts: {
       Game: ["Kuro"],
       notboy: true,
