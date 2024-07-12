@@ -11,8 +11,11 @@ dataSet[dataSetVersion].options = [
       { name: "Sora no Kiseki", key: "Sora" },
       { name: "Zero/Ao no Kiseki", key: "Crossbell" },
       { name: "Sen no Kiseki", key: "Sen" },
+      /*{ name: "Sen no Kiseki 1-2", key: "Sen" },
+      { name: "Sen no Kiseki 3-4", key: "SenPt2" },*/
       { name: "Hajimari no Kiseki", key: "Hajimari" },
       { name: "Kuro no Kiseki", key: "Kuro" },
+      /*{ name: "Kuro no Kiseki 2", key: "Kuro2" },*/
     ],
   },
   {
