@@ -669,7 +669,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Rufus",
-    img: "https://i.ibb.co/JFPLfF0/Cedric.png",
+    img: "https://i.ibb.co/9WFZVtb/Rufus.png",
     opts: {
       Game: ["Sen"],
       notgirl: true,
