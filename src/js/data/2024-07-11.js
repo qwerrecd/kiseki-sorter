@@ -20,17 +20,18 @@ dataSet[dataSetVersion].options = [
     key: "NPC",
     tooltip: "Check this to remove NPC characters.",
     checked: false,
-    inclusive: false,
   },
   {
     name: "Remove Non-Girls",
     key: "notgirl",
     tooltip: "Check this to remove all non-female characters.",
+    checked: false,
   },
   {
     name: "Remove Non-Boys",
     key: "notboy",
     tooltip: "Check this to remove all non-male characters.",
+    checked: false,
   },
 ];
 
