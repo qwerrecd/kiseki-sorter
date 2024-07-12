@@ -1,46 +1,64 @@
 <html>
+  <head>
+    <link
+      rel="shortcut icon"
+      href="src/assets/shizuna.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="src/assets/shizuna.ico" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta name="og:site_name" content="Legend of Heroes Character Sorter" />
+    <meta
+      name="og:description"
+      content="A simple website for sorting Legend of Heroes characters."
+    />
+    <meta name="og:image" content="src/assets/og-image.jpg" />
+    <title>Kiseki-Sorter</title>
 
-<head>
-  <link rel="shortcut icon" href="src/assets/shizuna.ico" type="image/x-icon">
-  <link rel="icon" href="src/assets/shizuna.ico" type="image/x-icon">
-  <meta charset="utf-8">
-  <meta name="og:site_name" content="Legend of Heroes Character Sorter">
-  <meta name="og:description" content="A simple website for sorting Legend of Heroes characters.">
-  <meta name="og:image" content="src/assets/og-image.jpg">
-  <title>Kiseki-Sorter</title>
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" type="text/css" href="src/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="src/js/data.js"></script>
+    <script src="src/js/data/2024-07-11.js"></script>
 
-  <script src="src/js/data.js"></script>
-  <script src="src/js/data/2024-07-11.js"></script>
+    <script src="src/js/html2canvas.min.js"></script>
+    <script src="src/js/lz-string.min.js"></script>
+    <script src="src/js/seedrandom.min.js"></script>
+    <script src="src/js/main.js"></script>
 
-  <script src="src/js/html2canvas.min.js"></script>
-  <script src="src/js/lz-string.min.js"></script>
-  <script src="src/js/seedrandom.min.js"></script>
-  <script src="src/js/main.js"></script>
+    <meta
+      name="NetsparkQuiltingResult"
+      total-length="3834"
+      removed="0"
+      rules-found="w6173,w6174,w12152,w6412,w3055,w6836,w6187,w6188,w6816,w8721,w9322,w4810,w10740"
+    />
+  </head>
 
-<meta name="NetsparkQuiltingResult" total-length="3834" removed="0" rules-found="w6173,w6174,w12152,w6412,w3055,w6836,w6187,w6188,w6816,w8721,w9322,w4810,w10740" />
-</head>
-
-<body>
-<div class="container">
-
-    <div class="progress">
+  <body>
+    <div class="container">
+      <div class="progress">
         <span class="progressbattle"></span>
         <div class="progressbar">
-            <div class="progressfill"><span class="progresstext"></span></div>
+          <div class="progressfill"><span class="progresstext"></span></div>
         </div>
-    </div>
+      </div>
 
-    <div class="sorter">
-        <img src="src/assets/defaultL.jpg" class="left sort image">
+      <div class="sorter">
+        <img src="src/assets/defaultL.jpg" class="left sort image" />
 
-        <div class="starting start button">The Legend of Heroes Character Sorter<br><br>Click to Start!</div>
+        <div class="starting start button">
+          The Legend of Heroes Character Sorter<br /><br />Click to Start!
+        </div>
         <div class="starting load button">Load <span></span></div>
 
-        <div class="loading button"><div></div><span>Loading...</span></div>
+        <div class="loading button">
+          <div></div>
+          <span>Loading...</span>
+        </div>
 
         <div class="sorting tie button">Tie</div>
         <div class="sorting undo button">Undo</div>
@@ -50,55 +68,89 @@
         <div class="finished getimg button">Generate Image</div>
         <div class="finished list button">Generate Text List</div>
 
-        <img src="src/assets/defaultR.jpg" class="right sort image">
+        <img src="src/assets/defaultR.jpg" class="right sort image" />
 
         <div class="left sort text"><p></p></div>
         <div class="right sort text"><p></p></div>
-    </div>
+      </div>
 
-    <div class="options"></div>
-    <div class="image selector">Display Images on Result: </div>
-    <div class="time taken"></div>
-    <div class="results"></div>
+      <div class="options"></div>
+      <div class="image selector">Display Images on Result:</div>
+      <div class="time taken"></div>
+      <div class="results"></div>
 
-    <div class="info">
-        <a href="https://kiseki-sorter.netlify.app/" target="_blank">Continuation/Re-remake of this</a> | <a href="https://github.com/simpelplant/charasort-bluearchive" target="_blank">Remake of this</a> | <a href="https://github.com/execfera/charasort/" target="_blank">Based on this project</a> | <a class="clearsave">Clear Save Data</a>
-        
-        <br><br>
+      <div class="info">
+        <a href="https://kiseki-sorter.netlify.app/" target="_blank"
+          >Continuation/Re-remake of this</a
+        >
+        |
+        <a
+          href="https://github.com/simpelplant/charasort-bluearchive"
+          target="_blank"
+          >Remake of this</a
+        >
+        |
+        <a href="https://github.com/execfera/charasort/" target="_blank"
+          >Based on this project</a
+        >
+        | <a class="clearsave">Clear Save Data</a>
+
+        <br /><br />
 
         <p>Sorter for Kiseki/Trails characters. Currently in beta version.</p>
-        <p>Click on the character you like better from the two, or tie them if you like them equally or don't know them (not recommended).</p>
-        <p>If you have any suggestions, email me <a href="qwerrecd@gmail.com">here.</a></p>
+        <p>
+          Click on the character you like better from the two, or tie them if
+          you like them equally or don't know them (not recommended).
+        </p>
+        <p>
+          If you have any suggestions, email me
+          <a href="qwerrecd@gmail.com">here.</a>
+        </p>
 
-        <br>
-		
+        <br />
+
         <p><b>Keyboard controls during sorting:</b></p>
-        <p><b>H (pick left) | J (undo) | K (tie) | L (pick right) | S (save progress)</b></p>
-        <br>
-        
+        <p>
+          <b
+            >H (pick left) | J (undo) | K (tie) | L (pick right) | S (save
+            progress)</b
+          >
+        </p>
+        <br />
+
         <p><b>Before sorting:</b></p>
         <p><b>S/Enter (start sorting) | L (load progress)</b></p>
         <p>1/2/3 always correspond to the first/second/third buttons.</p>
-        <br>
-        
-         <p><b>Current Version: 0.2 (07.11.24)</b></p>
-         <p>
-			A couple more characters available. 
-			Re-integrated "Filter NPC" button at start.<br />
-			Put some NPCs in an in-progress state.
-			Updated: 07.11.24
-         </p>
-		 <p><b>Previous Versions</b></p>
-         <p>
-			<i> 0.1 (07.09.23):</i>
-			Not all characters are yet availible. 
-			Filtering needs some tweaking.<br />
-         </p>
-        
-		<hr style="width:61%">
-        <p>Originally inspired by <a href="http://mainyan.sakura.ne.jp/thsort.html" target="_blank">this site</a> | <a href="https://en.wikipedia.org/wiki/The_Legend_of_Heroes" target="_blank">Legend of Heroes</a> by <a href="https://www.falcom.co.jp/" target="_blank">Falcom</a>
-    </div>
-</div>
-</body>
+        <br />
 
+        <p><b>Current Version: 0.2 (07.11.24)</b></p>
+        <p>
+          A couple more characters available. Re-integrated "Filter NPC" button
+          at start.<br />
+          Put some NPCs in an in-progress state.
+        </p>
+        <p><b>Previous Versions</b></p>
+        <p>
+          <i> 0.1 (07.09.23):</i>
+          Not all characters are yet availible. Filtering needs some
+          tweaking.<br />
+        </p>
+
+        <hr style="width: 61%" />
+        <p>
+          Originally inspired by
+          <a href="http://mainyan.sakura.ne.jp/thsort.html" target="_blank"
+            >this site</a
+          >
+          |
+          <a
+            href="https://en.wikipedia.org/wiki/The_Legend_of_Heroes"
+            target="_blank"
+            >Legend of Heroes</a
+          >
+          by <a href="https://www.falcom.co.jp/" target="_blank">Falcom</a>
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
