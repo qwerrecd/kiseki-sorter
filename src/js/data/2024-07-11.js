@@ -161,7 +161,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Game: ["Sora"],
       notgirl: true,
-      NPC: yes,
+      NPC: true,
     },
   },
   {
@@ -170,7 +170,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Game: ["Sora"],
       notgirl: true,
-      NPC: yes,
+      NPC: true,
     },
   },
   {
@@ -179,7 +179,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Game: ["Sora"],
       notgirl: yes,
-      NPC: yes,
+      NPC: true,
     },
   },
   {
@@ -188,7 +188,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Game: ["Sora"],
       notgirl: yes,
-      NPC: yes,
+      NPC: true,
     },
   },
   {
@@ -272,7 +272,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/qMD1XqF/Arianrhod.webp",
     opts: {
       Game: ["Crossbell"],
-      NPC: yes,
+      NPC: true,
     },
   },
   {
@@ -280,7 +280,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/zfCh30x/Mariabell.webp",
     opts: {
       Game: ["Crossbell"],
-      NPC: yes,
+      NPC: true,
     },
   },
   {
@@ -668,7 +668,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Game: ["Kuro"],
       notgirl: true,
-      NPC: yes,
+      NPC: true,
     },
   },
   {
@@ -676,7 +676,7 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/3yNfFKs/Lucrezia.png",
     opts: {
       Game: ["Kuro"],
-      NPC: yes,
+      NPC: true,
     },
   },
 ];
