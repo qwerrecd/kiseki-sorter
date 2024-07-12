@@ -228,6 +228,15 @@ dataSet[dataSetVersion].characterData = [
     },
   },
   {
+    name: "Ein",
+    img: "https://i.ibb.co/bBf3B9r/Ein.webp",
+    opts: {
+      Game: ["Sora"],
+      notboy: true,
+      NPC: true,
+    },
+  },
+  {
     name: "Lloyd",
     img: "https://i.ibb.co/Bgg2jrp/Lloyd.jpg",
     opts: {
@@ -332,6 +341,24 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Game: ["Crossbell"],
       notboy: true,
+      NPC: true,
+    },
+  },
+  {
+    name: "Wald",
+    img: "https://i.ibb.co/fHtnmDJ/Wald.webp",
+    opts: {
+      Game: ["Crossbell"],
+      notgirl: true,
+      NPC: true,
+    },
+  },
+  {
+    name: "Abbas",
+    img: "https://i.ibb.co/ygvP0Wy/Abbas.webp",
+    opts: {
+      Game: ["Crossbell"],
+      notgirl: true,
       NPC: true,
     },
   },
@@ -640,6 +667,33 @@ dataSet[dataSetVersion].characterData = [
     },
   },
   {
+    name: "Scarlet",
+    img: "https://i.ibb.co/y8G1xp8/Scarlet.png",
+    opts: {
+      Game: ["Sora"],
+      notboy: true,
+      NPC: true,
+    },
+  },
+  {
+    name: "Rosine",
+    img: "https://i.ibb.co/Z8hZ64r/Rosine.png",
+    opts: {
+      Game: ["Sora"],
+      notboy: true,
+      NPC: true,
+    },
+  },
+  {
+    name: "Thomas",
+    img: "https://i.ibb.co/3B3SKvW/Thomas.png",
+    opts: {
+      Game: ["Sora"],
+      notboy: true,
+      NPC: true,
+    },
+  },
+  {
     name: "C",
     img: "https://i.ibb.co/R3qmJ4Y/C.jpg",
     opts: {
@@ -785,6 +839,33 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Game: ["Kuro"],
       notboy: true,
+      NPC: true,
+    },
+  },
+  {
+    name: "Celis",
+    img: "https://i.ibb.co/KFZmL6h/Celis.png",
+    opts: {
+      Game: ["Kuro"],
+      notboy: true,
+      NPC: true,
+    },
+  },
+  {
+    name: "Leon",
+    img: "https://i.ibb.co/1Lt3pCR/Leon.png",
+    opts: {
+      Game: ["Kuro"],
+      notgirl: true,
+      NPC: true,
+    },
+  },
+  {
+    name: "Barkhorn",
+    img: "https://i.ibb.co/WpxR1x3/Barkhorn.png",
+    opts: {
+      Game: ["Kuro"],
+      notgirl: true,
       NPC: true,
     },
   },
