@@ -13,28 +13,25 @@ dataSet[dataSetVersion].options = [
       { name: "Sen no Kiseki", key: "Sen" },
       { name: "Hajimari no Kiseki", key: "Hajimari" },
       { name: "Kuro no Kiseki", key: "Kuro" },
-    ]
+    ],
   },
- {
+  {
     name: "Remove Non-Playable Characters",
     key: "NPC",
     tooltip: "Check this to remove NPC characters.",
     checked: false,
-	inclusive: false
+    inclusive: false,
   },
   {
     name: "Remove Non-Girls",
     key: "notgirl",
-    tooltip: "Check this to remove all non-female characters."
+    tooltip: "Check this to remove all non-female characters.",
   },
   /*{
     name: "Remove Non-Boys",
     key: "notboy",
     tooltip: "Check this to remove all non-male characters."
   },*/
-
-
-  
 ];
 
 dataSet[dataSetVersion].characterData = [
@@ -43,506 +40,506 @@ dataSet[dataSetVersion].characterData = [
     name: "Estelle",
     img: "https://i.ibb.co/pXtLbt1/estelle.jpg",
     opts: {
-      Game: ["Sora", "Sen"]
-    }
+      Game: ["Sora", "Sen"],
+    },
   },
   {
     name: "Joshua Bright",
     img: "https://i.ibb.co/vY3J5Jk/joshua.jpg",
     opts: {
       Game: ["Sora"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Olivier",
     img: "https://i.ibb.co/mbqyfSw/Olivier.jpg",
     opts: {
       Game: ["Sora", "Sen"],
-      notgirl: true 
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Agate",
     img: "https://i.ibb.co/Hz0Yww0/agate.jpg",
     opts: {
       Game: ["Sora", "Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Klaudia",
     img: "https://i.ibb.co/K75vf2P/Klaudia.jpg",
     opts: {
-      Game: ["Sora"]
-    }
+      Game: ["Sora"],
+    },
   },
   {
     name: "Schera",
     img: "https://i.ibb.co/WsX9Xjf/Schera.jpg",
     opts: {
-      Game: ["Sora"]
-    }
+      Game: ["Sora"],
+    },
   },
   {
     name: "Tita",
     img: "https://i.ibb.co/xh2Zm4L/Tita.jpg",
     opts: {
-      Game: ["Sora", "Sen"]
-    }
+      Game: ["Sora", "Sen"],
+    },
   },
   {
     name: "Zin",
     img: "https://i.ibb.co/FqvZQW9/Zin.jpg",
     opts: {
       Game: ["Sora"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Alan",
     img: "https://i.ibb.co/k0x2R8P/Alan.jpg",
     opts: {
       Game: ["Sora"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Anelace",
     img: "https://i.ibb.co/Fq1fH8j/Anelace.jpg",
     opts: {
-      Game: ["Sora"]
-    }
+      Game: ["Sora"],
+    },
   },
   {
     name: "Josette",
     img: "https://i.ibb.co/ZLFpBSH/Josette.jpg",
     opts: {
-      Game: ["Sora"]
-    }
+      Game: ["Sora"],
+    },
   },
   {
     name: "Julia",
     img: "https://i.ibb.co/6RftFD0/Julia.jpg",
     opts: {
-      Game: ["Sora"]
-    }
+      Game: ["Sora"],
+    },
   },
   {
     name: "Kevin",
     img: "https://i.ibb.co/cJPWPGT/Kevin.jpg",
     opts: {
       Game: ["Sora"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Mueller",
     img: "https://i.ibb.co/jkL0YcP/Mueller.jpg",
     opts: {
       Game: ["Sora"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Renne",
     img: "https://i.ibb.co/Hgcbz3d/Renne.jpg",
     opts: {
-      Game: ["Sora", "Crossbell", "Hajimari", "Kuro"]
-    }
+      Game: ["Sora", "Crossbell", "Hajimari", "Kuro"],
+    },
   },
   {
     name: "Ries",
     img: "https://i.ibb.co/GWJw7Q7/Ries.jpg",
     opts: {
-      Game: ["Sora"]
-    }
+      Game: ["Sora"],
+    },
   },
-  /*{
+  {
     name: "Campanella",
-    img: "",
+    img: "https://i.ibb.co/sQqdsTN/Campanella.png",
     opts: {
       Game: ["Sora"],
-	  notgirl: true,
-	  NPC: yes
-    }
+      notgirl: true,
+      NPC: yes,
+    },
   },
   {
     name: "Loewe",
-    img: "",
+    img: "https://i.ibb.co/S6r80NX/Loewe.webp",
     opts: {
       Game: ["Sora"],
-	  notgirl: true
-	  NPC: yes
-    }
+      notgirl: true,
+      NPC: yes,
+    },
   },
   {
     name: "Novartis",
-    img: "",
+    img: "https://i.ibb.co/F5PdQMR/Novartis.webp",
     opts: {
       Game: ["Sora"],
-	  notgirl: yes,
-	  NPC: yes
-    }
+      notgirl: yes,
+      NPC: yes,
+    },
   },
   {
     name: "Weissman",
-    img: "",
+    img: "https://i.ibb.co/hgQPWSZ/Weissman.webp",
     opts: {
       Game: ["Sora"],
-	  notgirl: yes
-	  NPC: yes
-    }
-  },*/
+      notgirl: yes,
+      NPC: yes,
+    },
+  },
   {
     name: "Lloyd",
     img: "https://i.ibb.co/Bgg2jrp/Lloyd.jpg",
     opts: {
       Game: ["Crossbell"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Elie",
     img: "https://i.ibb.co/Nn8vcvN/Elie.jpg",
     opts: {
-      Game: ["Crossbell"]
-    }
+      Game: ["Crossbell"],
+    },
   },
   {
     name: "Tio",
     img: "https://i.ibb.co/4TQ3dyC/Tio.jpg",
     opts: {
-      Game: ["Crossbell"]
-    }
+      Game: ["Crossbell"],
+    },
   },
   {
     name: "Randy",
     img: "https://i.ibb.co/5nm880X/Randy.jpg",
     opts: {
       Game: ["Crossbell"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Noel",
     img: "https://i.ibb.co/HrWsxNF/Noel.jpg",
     opts: {
-      Game: ["Crossbell"]
-    }
+      Game: ["Crossbell"],
+    },
   },
   {
     name: "Fran",
     img: "https://i.ibb.co/k25ZYCJ/Fran.png",
     opts: {
       Game: ["Crossbell"],
-	  NPC: true
-    }
+      NPC: true,
+    },
   },
   {
     name: "Wazy",
     img: "https://i.ibb.co/McF7qwz/Wazy.jpg",
     opts: {
       Game: ["Crossbell"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Alex",
     img: "https://i.ibb.co/BKwPLrX/Alex.jpg",
     opts: {
       Game: ["Crossbell"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Rixia",
     img: "https://i.ibb.co/NyTpnQ2/Rixia.jpg",
     opts: {
-      Game: ["Crossbell"]
-    }
+      Game: ["Crossbell"],
+    },
   },
   {
     name: "Arios",
     img: "https://i.ibb.co/vmxvnbq/Arios.jpg",
     opts: {
       Game: ["Crossbell"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
-  /*{
+  {
     name: "Arianrhod",
-    img: "",
+    img: "https://i.ibb.co/qMD1XqF/Arianrhod.webp",
     opts: {
       Game: ["Crossbell"],
-	  NPC: yes
-    }
+      NPC: yes,
+    },
   },
   {
     name: "Mariabell",
-    img: "",
+    img: "https://i.ibb.co/zfCh30x/Mariabell.webp",
     opts: {
       Game: ["Crossbell"],
-	  NPC: yes
-    }
-  },*/
+      NPC: yes,
+    },
+  },
   {
     name: "Fie",
     img: "https://i.ibb.co/C9kPKfk/Fie.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Gaius",
     img: "https://i.ibb.co/HCtqj40/Gaius.jpg",
     opts: {
       Game: ["Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "George",
     img: "https://i.ibb.co/mBMzdrd/George.jpg",
     opts: {
       Game: ["Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Ines",
     img: "https://i.ibb.co/Lv0zNf5/Ines.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Juna",
     img: "https://i.ibb.co/BgZ4nt4/Juna.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Jusis",
     img: "https://i.ibb.co/NKByq99/Jusis.jpg",
     opts: {
       Game: ["Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "KeA",
     img: "https://i.ibb.co/j6qzL0s/KeA.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Kurt",
     img: "https://i.ibb.co/CHhSFgQ/Kurt.jpg",
     opts: {
       Game: ["Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Laura",
     img: "https://i.ibb.co/G07LM8v/Laura.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Lechter",
     img: "https://i.ibb.co/749TrcV/Lechter.jpg",
     opts: {
       Game: ["Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Machias",
     img: "https://i.ibb.co/HrpzqWs/Machias.jpg",
     opts: {
       Game: ["Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Musse",
     img: "https://i.ibb.co/Hq9fdnq/Musse.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Rean",
     img: "https://i.ibb.co/qgdncs7/Rean.jpg",
     opts: {
       Game: ["Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Roselia",
     img: "https://i.ibb.co/wLNkVmq/Roselia.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Sara",
     img: "https://i.ibb.co/qdxpthd/Sara.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Sharon",
     img: "https://i.ibb.co/p3tTY9K/Sharo.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Toval",
     img: "https://i.ibb.co/L0sXG6H/Toval.jpg",
     opts: {
       Game: ["Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Towa",
     img: "https://i.ibb.co/yFMq6ZG/Towa.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Victor",
     img: "https://i.ibb.co/fSp8JxB/Victor.jpg",
     opts: {
       Game: ["Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Vita",
     img: "https://i.ibb.co/kXgL6SQ/Vita.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Alfin",
     img: "https://i.ibb.co/2Yb3H58/Alfin.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Alisa",
     img: "https://i.ibb.co/tKhFY4b/Alisa.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Altina",
     img: "https://i.ibb.co/LCMpfLs/Altina.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Angelica",
     img: "https://i.ibb.co/sy3hncv/Angelica.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Ash",
     img: "https://i.ibb.co/vkvR6JQ/Ash.jpg",
     opts: {
       Game: ["Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Aurelia",
     img: "https://i.ibb.co/T8nb6mn/Aurelia.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Celine",
     img: "https://i.ibb.co/C9Ytdtf/Celine.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Claire",
     img: "https://i.ibb.co/L0tgrqK/Claire.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Crow",
     img: "https://i.ibb.co/JQRsLTx/Crow.jpg",
     opts: {
       Game: ["Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Duvalie",
     img: "https://i.ibb.co/Pgws9xB/Duvalie.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Elise",
     img: "https://i.ibb.co/MZqfvmb/Elise.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Elliot",
     img: "https://i.ibb.co/j8mxf9m/Elliot.jpg",
     opts: {
       Game: ["Sen"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Emma",
     img: "https://i.ibb.co/d5V2phw/Emma.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "Ennea",
     img: "https://i.ibb.co/d49CStJ/Ennea.jpg",
     opts: {
-      Game: ["Sen"]
-    }
+      Game: ["Sen"],
+    },
   },
   {
     name: "McBurn",
     img: "https://i.ibb.co/s6Kg6d7/McBurn.png",
     opts: {
       Game: ["Sen"],
-	  notgirl: true
-    }
+      notgirl: true,
+    },
   },
   /*{
     name: "Xeno",
@@ -565,30 +562,30 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/R3qmJ4Y/C.jpg",
     opts: {
       Game: ["Hajimari"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Nadia",
     img: "https://i.ibb.co/QdfJBP6/Nadia.jpg",
     opts: {
-      Game: ["Hajimari"]
-    }
+      Game: ["Hajimari"],
+    },
   },
   {
     name: "Swin",
     img: "https://i.ibb.co/1rRpnB2/Swin.jpg",
     opts: {
       Game: ["Hajimari"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Lapis",
     img: "https://i.ibb.co/VD57zz0/Lapis.jpg",
     opts: {
-      Game: ["Hajimari"]
-    }
+      Game: ["Hajimari"],
+    },
   },
 
   {
@@ -596,74 +593,74 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.ibb.co/4MVxbwK/Bergard.jpg",
     opts: {
       Game: ["Kuro"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Feri",
     img: "https://i.ibb.co/7zfNJQg/Feri.jpg",
     opts: {
-      Game: ["Kuro"]
-    }
+      Game: ["Kuro"],
+    },
   },
   {
     name: "Judith",
     img: "https://i.ibb.co/ZGnXF89/Judith.jpg",
     opts: {
-      Game: ["Kuro"]
-    }
+      Game: ["Kuro"],
+    },
   },
   {
     name: "Quatre",
     img: "https://i.ibb.co/Vvpnt9k/Quatre.jpg",
     opts: {
       Game: ["Kuro"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Risette",
     img: "https://i.ibb.co/6B8jyKY/Risette.jpg",
     opts: {
-      Game: ["Kuro"]
-    }
+      Game: ["Kuro"],
+    },
   },
   {
     name: "Shizuna",
     img: "https://i.ibb.co/b7gdQ1n/Shizuna.jpg",
     opts: {
-      Game: ["Kuro"]
-    }
+      Game: ["Kuro"],
+    },
   },
   {
     name: "Van",
     img: "https://i.ibb.co/dPKvxGM/Van.jpg",
     opts: {
       Game: ["Kuro"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Aaron",
     img: "https://i.ibb.co/jDBSt14/Aaron.jpg",
     opts: {
       Game: ["Kuro"],
-      notgirl: true
-    }
+      notgirl: true,
+    },
   },
   {
     name: "Agnes",
     img: "https://i.ibb.co/zmW1nqp/Agnes.jpg",
     opts: {
-      Game: ["Kuro"]
-    }
+      Game: ["Kuro"],
+    },
   },
   {
     name: "Elaine",
     img: "https://i.ibb.co/c1td5c2/Elaine.png",
     opts: {
-      Game: ["Kuro"]
-    }
+      Game: ["Kuro"],
+    },
   },
   /*{
     name: "Harwood",
@@ -683,4 +680,3 @@ dataSet[dataSetVersion].characterData = [
     }
   },*/
 ];
-	
